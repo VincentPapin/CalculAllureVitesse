@@ -44,8 +44,15 @@ namespace ConversionAllureVitesse
             this.tb_Seconde = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_CalculDistanceTemps = new System.Windows.Forms.Button();
+            this.lv_DistanceTemps = new System.Windows.Forms.ListView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tb_AllureMin = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tb_AllureSec = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.allure.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -84,16 +91,18 @@ namespace ConversionAllureVitesse
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 1;
+            this.label1.Text = "Distance";
             // 
             // lb_Allure
             // 
             this.lb_Allure.AutoSize = true;
-            this.lb_Allure.Location = new System.Drawing.Point(22, 173);
+            this.lb_Allure.Location = new System.Drawing.Point(22, 136);
             this.lb_Allure.Name = "lb_Allure";
-            this.lb_Allure.Size = new System.Drawing.Size(0, 13);
+            this.lb_Allure.Size = new System.Drawing.Size(33, 13);
             this.lb_Allure.TabIndex = 10;
+            this.lb_Allure.Text = "Allure";
             // 
             // tb_Distance
             // 
@@ -106,10 +115,11 @@ namespace ConversionAllureVitesse
             // lb_Vitesse
             // 
             this.lb_Vitesse.AutoSize = true;
-            this.lb_Vitesse.Location = new System.Drawing.Point(22, 131);
+            this.lb_Vitesse.Location = new System.Drawing.Point(22, 113);
             this.lb_Vitesse.Name = "lb_Vitesse";
-            this.lb_Vitesse.Size = new System.Drawing.Size(0, 13);
+            this.lb_Vitesse.Size = new System.Drawing.Size(41, 13);
             this.lb_Vitesse.TabIndex = 9;
+            this.lb_Vitesse.Text = "Vitesse";
             // 
             // tb_Heure
             // 
@@ -133,16 +143,18 @@ namespace ConversionAllureVitesse
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 3;
+            this.label2.Text = "Heure";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(169, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 13);
+            this.label4.Size = new System.Drawing.Size(29, 13);
             this.label4.TabIndex = 7;
+            this.label4.Text = "Sec.";
             // 
             // tb_Minute
             // 
@@ -163,11 +175,18 @@ namespace ConversionAllureVitesse
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(93, 42);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 5;
+            this.label3.Text = "Minute";
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.tb_AllureSec);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.btn_CalculDistanceTemps);
+            this.tabPage2.Controls.Add(this.lv_DistanceTemps);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.tb_AllureMin);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -175,6 +194,58 @@ namespace ConversionAllureVitesse
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Temps";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btn_CalculDistanceTemps
+            // 
+            this.btn_CalculDistanceTemps.Location = new System.Drawing.Point(195, 13);
+            this.btn_CalculDistanceTemps.Name = "btn_CalculDistanceTemps";
+            this.btn_CalculDistanceTemps.Size = new System.Drawing.Size(75, 23);
+            this.btn_CalculDistanceTemps.TabIndex = 9;
+            this.btn_CalculDistanceTemps.Text = "Calcul";
+            this.btn_CalculDistanceTemps.UseVisualStyleBackColor = true;
+            this.btn_CalculDistanceTemps.Click += new System.EventHandler(this.btn_CalculDistanceTemps_Click);
+            // 
+            // lv_DistanceTemps
+            // 
+            this.lv_DistanceTemps.GridLines = true;
+            this.lv_DistanceTemps.HideSelection = false;
+            this.lv_DistanceTemps.Location = new System.Drawing.Point(9, 54);
+            this.lv_DistanceTemps.Name = "lv_DistanceTemps";
+            this.lv_DistanceTemps.Size = new System.Drawing.Size(261, 133);
+            this.lv_DistanceTemps.TabIndex = 2;
+            this.lv_DistanceTemps.UseCompatibleStateImageBehavior = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 18);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Allure";
+            // 
+            // tb_AllureMin
+            // 
+            this.tb_AllureMin.Location = new System.Drawing.Point(96, 15);
+            this.tb_AllureMin.Name = "tb_AllureMin";
+            this.tb_AllureMin.Size = new System.Drawing.Size(24, 20);
+            this.tb_AllureMin.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(126, 18);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = ":";
+            // 
+            // tb_AllureSec
+            // 
+            this.tb_AllureSec.Location = new System.Drawing.Point(142, 15);
+            this.tb_AllureSec.Name = "tb_AllureSec";
+            this.tb_AllureSec.Size = new System.Drawing.Size(24, 20);
+            this.tb_AllureSec.TabIndex = 11;
             // 
             // Form1
             // 
@@ -188,6 +259,8 @@ namespace ConversionAllureVitesse
             this.tabControl1.ResumeLayout(false);
             this.allure.ResumeLayout(false);
             this.allure.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -207,6 +280,12 @@ namespace ConversionAllureVitesse
         private System.Windows.Forms.TextBox tb_Minute;
         private System.Windows.Forms.TextBox tb_Seconde;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tb_AllureMin;
+        private System.Windows.Forms.ListView lv_DistanceTemps;
+        private System.Windows.Forms.Button btn_CalculDistanceTemps;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tb_AllureSec;
     }
 }
 
