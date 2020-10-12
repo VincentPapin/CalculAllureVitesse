@@ -1,0 +1,10 @@
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\bin\Debug\ConversionAllureVitesse.exe.config
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\bin\Debug\ConversionAllureVitesse.exe
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\bin\Debug\ConversionAllureVitesse.pdb
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.csprojAssemblyReference.cache
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.Form1.resources
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.Properties.Resources.resources
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.csproj.GenerateResource.cache
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.csproj.CoreCompileInputs.cache
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.exe
+C:\Users\vpapin\source\repos\ConversionAllureVitesse\ConversionAllureVitesse\obj\Debug\ConversionAllureVitesse.pdb

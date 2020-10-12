@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionAllureVitesse", "ConversionAllureVitesse\ConversionAllureVitesse.csproj", "{F2CD7CC6-C81D-4424-926B-1FB68DE3D4DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2CD7CC6-C81D-4424-926B-1FB68DE3D4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CD7CC6-C81D-4424-926B-1FB68DE3D4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CD7CC6-C81D-4424-926B-1FB68DE3D4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CD7CC6-C81D-4424-926B-1FB68DE3D4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {858FA119-1A05-4443-9B52-ED7C8295D19A}
+	EndGlobalSection
+EndGlobal
